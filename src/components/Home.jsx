@@ -160,7 +160,7 @@ export const Home = () => {
             <h2 className="uppercase text-white font-extrabold text-[80px]">
               ?+
             </h2>
-            <h4 className="text-blue-950 font-bold text-[40px] md:text-[30px]">
+            <h4 className="text-blue-950 font-bold text-[25px] md:text-[30px]">
               VEICOLI
             </h4>
           </div>
@@ -168,7 +168,7 @@ export const Home = () => {
             <h2 className="uppercase text-white font-extrabold text-[80px]">
               ?+
             </h2>
-            <h4 className="text-blue-950 font-bold text-[40px] text-center md:text-[30px]">
+            <h4 className="text-blue-950 font-bold text-[25px] text-center md:text-[30px]">
               ANNI DI ESPERIENZA NEL SETTORE
             </h4>
           </div>
@@ -176,7 +176,7 @@ export const Home = () => {
             <h2 className="uppercase text-white font-extrabold text-[80px]">
               ?+
             </h2>
-            <h4 className="text-blue-950 font-bold text-[40px] text-center md:text-[30px]">
+            <h4 className="text-blue-950 font-bold text-[25px] text-center md:text-[30px]">
               CONSEGNE A TEMPERATURA CONTROLLATA
             </h4>
           </div>
@@ -184,7 +184,7 @@ export const Home = () => {
             <h2 className="uppercase text-white font-extrabold text-[80px]">
               ?+
             </h2>
-            <h4 className="text-blue-950 font-bold text-[40px] text-center md:text-[30px]">
+            <h4 className="text-blue-950 font-bold text-[25px] text-center md:text-[30px]">
               FARMACIE SERVITE OGNI GIORNO IN TUTTA ITALIA
             </h4>
           </div>
