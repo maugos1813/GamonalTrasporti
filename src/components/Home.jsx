@@ -8,6 +8,8 @@ import { Link } from "react-router-dom";
 import car from "/car.png";
 import leaves from "/leaves.png";
 import logogam from "/logogam.jpeg";
+import divrazones from "/divrazones.webp"
+import carlogo from "/carlogo.webp"
 
 export const Home = () => {
   return (
@@ -187,6 +189,25 @@ export const Home = () => {
             <h4 className="text-blue-950 font-bold text-[25px] text-center md:text-[30px]">
               FARMACIE SERVITE OGNI GIORNO IN TUTTA ITALIA
             </h4>
+          </div>
+        </div>
+      </div>
+
+      {/*Razones*/}
+
+      <div>
+        <div className=" border-green-600 pb-5 pt-5 flex justify-center items-center">
+          <img src={divrazones} alt="random image" className="rounded-xl lg:w-[50vw]"/>
+        </div>
+        <div className="w-[80vw] ml-[10vw]">
+          <h2 className="text-[25px] text-[#252d5c] font-semibold text-center m-3">Specialisti della logistica attiva della catena del freddo: sicurezza e conformità in ogni consegna</h2>
+        </div>
+        <div>
+          <div>
+          <img src={carlogo} alt="car with logo" className="rounded-3xl"/>
+          </div>
+          <div>
+            <h2 className="text-[25px] text-[#252d5c] font-semibold text-center m-3">Perché scegliere Gamonal Trasporti</h2>
           </div>
         </div>
       </div>
