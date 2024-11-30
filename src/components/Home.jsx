@@ -8,8 +8,11 @@ import { Link } from "react-router-dom";
 import car from "/car.png";
 import leaves from "/leaves.png";
 import logogam from "/logogam.jpeg";
-import divrazones from "/divrazones.webp"
-import carlogo from "/carlogo.webp"
+import divrazones from "/divrazones.webp";
+import carlogo from "/carlogo.webp";
+import time from "/time.png";
+import vehi from "/vehiculo.png"
+import temp from "/temperatgris.png"
 
 export const Home = () => {
   return (
@@ -47,7 +50,7 @@ export const Home = () => {
       <div className="border border-green-300 bg-gradient-to-b from-[#252d5c] via-[#6c9993] to-[#77ad57] rounded-xl p-2 m-5">
         <div>
           <h2 className="uppercase font-semibold text-white text-[30px] text-center">
-            our services
+          I nostri servizi
           </h2>
         </div>
         <hr className="border-white" />
@@ -197,17 +200,42 @@ export const Home = () => {
 
       <div>
         <div className=" border-green-600 pb-5 pt-5 flex justify-center items-center">
-          <img src={divrazones} alt="random image" className="rounded-xl lg:w-[50vw]"/>
+          <img
+            src={divrazones}
+            alt="random image"
+            className="rounded-xl lg:w-[50vw]"
+          />
         </div>
         <div className="w-[80vw] ml-[10vw]">
-          <h2 className="text-[25px] text-[#252d5c] font-semibold text-center m-3">Specialisti della logistica attiva della catena del freddo: sicurezza e conformità in ogni consegna</h2>
+          <h2 className="text-[25px] text-[#252d5c] font-semibold text-center m-3">
+            Specialisti della logistica attiva della catena del freddo:
+            sicurezza e conformità in ogni consegna
+          </h2>
         </div>
-        <div>
+        <div className="md:flex items-center">
           <div>
-          <img src={carlogo} alt="car with logo" className="rounded-3xl"/>
+            <img src={carlogo} alt="car with logo" className="rounded-3xl md:w-[50vw]" />
           </div>
-          <div>
-            <h2 className="text-[25px] text-[#252d5c] font-semibold text-center m-3">Perché scegliere Gamonal Trasporti</h2>
+          <div className="md:w-[50vw] items-center p-5">
+            <div>
+              <h2 className="text-[25px] text-[#252d5c] font-semibold text-center m-3">
+                Perché scegliere Gamonal Trasporti
+              </h2>
+            </div>
+            <div className="flex m-2 gap-2 justify-center items-center">
+              <img src={time} alt="icon time" className="w-[25vw] p-3 md:w-[8vw]" />
+              <h3 className="font-serif font-semibold text-[14px]">
+              Comprendiamo quanto sia importante ricevere i farmaci puntualmente. Per questo garantiamo spedizioni rapide e sicure in tutta Italia, rispettando sempre i tempi concordati.
+              </h3>
+            </div>
+            <div className="flex m-2 gap-2 justify-center items-center">
+              <h3 className="font-serif font-semibold text-[14px]">Disponiamo di veicoli attrezzati per garantire il trasporto sicuro dei farmaci in tutto il Paese, rispettando i più alti standard di sicurezza e conservazione.</h3>
+              <img src={vehi} alt="vehicle icon" className="w-[25vw] p-3 md:w-[8vw]"/>
+            </div>
+            <div className="flex m-2 gap-2 justify-center items-center">
+              <img src={temp} alt="temperature icon" className="w-[25vw] p-3 md:w-[8vw]" />
+              <h3 className="font-serif font-semibold text-[14px]">Distribuzione a temperatura controllata con servizi logistici dedicati a farmacie, personale medico e informatori scientifici.</h3>
+            </div>
           </div>
         </div>
       </div>
