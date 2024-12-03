@@ -20,7 +20,7 @@ export const Home = () => {
       <div className="flex flex-col border m-5 rounded-xl shadow-2xl bg-cover bg-center border-green-300">
         <div className="mb-4">
           <h1 className="text-[5vh] sm:text-[7vh] text-center px-3 mt-3 text-gray-600 font-bold">
-            Farmaci Puntuali: Distribuzione Affidabile in Tutto il Paese
+            Farmaci Puntuali: Distribuzione Affidabile in Tutto il Paese holi holi
           </h1>
         </div>
 
