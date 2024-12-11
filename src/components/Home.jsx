@@ -7,7 +7,7 @@ import carlogo from "/carlogo.webp";
 import time from "/time.png";
 import vehi from "/vehiculo.png";
 import temp from "/temperatgris.png";
-import { TypeServices } from "./typeServices";
+import { TypeServices } from "./TypeServices.jsx";
 
 export const Home = () => {
   return (

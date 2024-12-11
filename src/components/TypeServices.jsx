@@ -1,4 +1,4 @@
-import { MiniServ } from "./MiniServ";
+import { MiniServ } from "./MiniServ.jsx";
 import { Link } from "react-router-dom";
 
 export const TypeServices = () => {
