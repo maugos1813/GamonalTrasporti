@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 
 export const TypeServices = () => {
   return (
-    <div className="border border-green-300 flex flex-col items-center">
+    <div className="flex flex-col items-center">
       <div>
         <h2 className="text-[#252d5c] text-[5vh] sm:text-[6vh] font-bold text-center mt-[80px]">
           I nostri servizi
         </h2>
       </div>
-      <div className="lg:flex">
+      <div className="lg:flex text-center">
       <MiniServ
         titulo={"hola soy un titutlo"}
         descripcion={
@@ -35,7 +35,7 @@ export const TypeServices = () => {
 
       <div>
         <Link to="/services">
-          <button className="border p-3 rounded-3xl bg-[#252d5c] text-white mb-[80px] w-[200px] shadow-2xl">
+          <button className="border p-3 rounded-3xl bg-[#252d5c] text-white mb-[80px] w-[200px] shadow-2xl hover:bg-green-500">
             Altri servizi
           </button>
         </Link>

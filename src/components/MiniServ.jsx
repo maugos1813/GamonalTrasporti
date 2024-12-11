@@ -6,7 +6,7 @@ export const MiniServ = ({ titulo, descripcion }) => {
     <div className="mt-[80px] mb-[80px] flex m-8">
         <div className="flex justify-center items-center flex-col">
           <div>
-            <img src={car} alt="icon car" className="w-20 mb-[25px]" />
+            <img src={car} alt="icon car" className="w-20 mb-[25px] border-b-4 border-b-green-500" />
           </div>
           <div>
             <h3 className="text-[3vh] mb-[25px]">{titulo}</h3>

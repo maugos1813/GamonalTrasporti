@@ -1,6 +1,3 @@
-import temperature from "/temperatura.png";
-import car from "/car.png";
-import leaves from "/leaves.png";
 import logogam from "/logogam.jpeg";
 import divrazones from "/divrazones.webp";
 import carlogo from "/carlogo.webp";
@@ -8,6 +5,7 @@ import time from "/time.png";
 import vehi from "/vehiculo.png";
 import temp from "/temperatgris.png";
 import { TypeServices } from "./TypeServices.jsx";
+import { HowWork } from "./HowWork.jsx";
 
 export const Home = () => {
   return (
@@ -32,30 +30,7 @@ export const Home = () => {
 
       <TypeServices/>
 
-      
-
-      {/*Division*/}
-
-      <div className="border-[4px] border-[#6c9993] p-9 uppercase text-gray-500 font-bold text-center text-[20px] ">
-        <h2 className="md:text-[35px]">
-          Antipasti a temperatura controllata: preparati secondo i più alti
-          standard GDP per garantire precisione e qualità in ogni spedizione.
-        </h2>
-        <div className="lg:flex lg:gap-5">
-          <div className="border-b-4 shadow-2xl rounded-2xl flex flex-col items-center">
-            <img src={car} alt="car icon" className="p-20" />
-            <h3 className="md:text-[30px] m-2">CONSEGNE CON VAN COIBENTATI</h3>
-          </div>
-          <div className="border-b-4 shadow-2xl rounded-2xl flex flex-col items-center">
-            <img src={leaves} alt="leaves icon" className="p-20" />
-            <h3 className="md:text-[30px] m-2">VEICOLI A BASSO IMPATTO</h3>
-          </div>
-          <div className="border-b-4 shadow-2xl rounded-2xl flex flex-col items-center">
-            <img src={temperature} alt="temperate icon" className="p-20" />
-            <h3 className="md:text-[30px] m-2">MONITORAGGIO TEMPERATURA</h3>
-          </div>
-        </div>
-      </div>
+      <HowWork/>
 
       {/*Numeros*/}
 
