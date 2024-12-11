@@ -12,7 +12,7 @@ import { TypeServices } from "./TypeServices.jsx";
 export const Home = () => {
   return (
     <>
-      <div className="flex flex-col bg-cover bg-center bg-[url('camioni.jpg')] h-[80vh]">
+      <div className="flex flex-col bg-cover bg-center bg-[url('/camioni.jpg')] h-[80vh]">
         <div className="mb-4">
           <h1 className="text-[5vh] text-center px-3 mt-[80px] ml-5 text-white font-bold">
           Il nostro servizio logistico!
