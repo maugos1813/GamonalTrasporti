@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import menuIcon from '/menu.png';
-import logom from '/logogam.jpeg';
+import logom from '/logoc.jpeg';
 
 export const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,25 +15,25 @@ export const Nav = () => {
   };
 
   return (
-    <nav className="bg-white shadow-lg border h-[10vh] relative z-50 rounded-b-xl border-green-500">
+    <nav className="bg-[#252d5c] h-[10vh] relative z-50">
       <div className="max-w-7xl mx-auto px-4 h-full">
         <div className="flex justify-between items-center h-full">
           {/* Logo */}
-          <div className="flex ml-5 items-center">
-            <img src={logom} alt="medicine icon" className="h-[8vh]" />
+          <div className="flex items-center ">
+            <img src={logom} alt="medicine icon" className="h-[8vh] rounded-full" />
           </div>
 
           {/* Menú grande */}
           <div className="hidden sm:flex flex-grow justify-center items-center space-x-4">
-            <Link to="/" className="text-gray-700 hover:text-gray-900 text-[2vh] hover:bg-green-300 w-[10vh] flex justify-center rounded-md">Home</Link>
-            <Link to="/about" className="text-gray-700 hover:text-gray-900 text-[2vh] hover:bg-green-300 w-[10vh] flex justify-center rounded-md">Chi Siamo</Link>
-            <Link to="/services" className="text-gray-700 hover:text-gray-900 text-[2vh] hover:bg-green-300 w-[10vh] flex justify-center rounded-md">Servizi</Link>
-            <Link to="/contact" className="text-gray-700 hover:text-gray-900 text-[2vh] hover:bg-green-300 w-[10vh] flex justify-center rounded-md">Contatti</Link>
+            <Link to="/" className="text-white hover:text-gray-900 text-[2vh] hover:bg-green-500 w-[10vh] flex justify-center rounded-md">Home</Link>
+            <Link to="/about" className="text-white hover:text-gray-900 text-[2vh] hover:bg-green-500 w-[10vh] flex justify-center rounded-md">Chi Siamo</Link>
+            <Link to="/services" className="text-white hover:text-gray-900 text-[2vh] hover:bg-green-500 w-[10vh] flex justify-center rounded-md">Servizi</Link>
+            <Link to="/contact" className="text-white hover:text-gray-900 text-[2vh] hover:bg-green-500 w-[10vh] flex justify-center rounded-md">Contatti</Link>
           </div>
 
           {/* Botón "Regístrate ahora" siempre al final */}
           <div className="hidden sm:flex justify-end">
-            <button className="ml-4 px-6 py-2 bg-green-400 text-white text-[2vh] rounded-lg hover:bg-green-300 h-[6vh]">
+            <button className="ml-4 px-6 py-2 bg-green-500 text-white text-[2vh] rounded-lg hover:bg-green-400 h-[6vh]">
             Contattaci ora
             </button>
           </div>
