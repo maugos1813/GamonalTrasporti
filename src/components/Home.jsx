@@ -1,6 +1,4 @@
 import logogam from "/logogam.jpeg";
-import divrazones from "/divrazones.webp";
-import carlogo from "/carlogo.webp";
 import time from "/time.png";
 import vehi from "/vehiculo.png";
 import temp from "/temperatgris.png";
@@ -86,7 +84,7 @@ export const Home = () => {
       <div>
         <div className=" border-green-600 pb-5 pt-5 flex justify-center items-center">
           <img
-            src={divrazones}
+            src={temp}
             alt="random image"
             className="rounded-xl lg:w-[50vw]"
           />
@@ -100,7 +98,7 @@ export const Home = () => {
         <div className="md:flex items-center">
           <div>
             <img
-              src={carlogo}
+              src={temp}
               alt="car with logo"
               className="rounded-3xl md:w-[50vw]"
             />
