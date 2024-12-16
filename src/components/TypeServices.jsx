@@ -13,21 +13,21 @@ export const TypeServices = () => {
       <MiniServ
         titulo={"hola soy un titutlo"}
         descripcion={
-          "Esta es una breve descripcion de prueva así que no se asusten, todo está bien!"
+          "Esta es una breve descripcion de prueba así que no se asusten, todo está bien!"
         }
       />
 
       <MiniServ
         titulo={"hola soy un titutlo 2"}
         descripcion={
-          "Esta es una breve descripcion de prueva así que no se asusten, todo está bien!"
+          "Esta es una breve descripcion de prueba así que no se asusten, todo está bien!"
         }
       />
 
       <MiniServ
         titulo={"hola soy un titutlo 3"}
         descripcion={
-          "Esta es una breve descripcion de prueva así que no se asusten, todo está bien!"
+          "Esta es una breve descripcion de prueba así que no se asusten, todo está bien!"
         }
       />
       </div>

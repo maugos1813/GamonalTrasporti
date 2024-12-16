@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import menuIcon from '/menu.png';
+import menuIcon from '/more.png';
 import logom from '/logoc.jpeg';
 
 export const Nav = () => {
@@ -20,13 +20,13 @@ export const Nav = () => {
         <div className="flex justify-between items-center h-full">
           {/* Logo */}
           <div className="flex items-center ">
-            <img src={logom} alt="medicine icon" className="h-[8vh] rounded-full" />
+            <img src={logom} alt="medicine icon" className="h-[8vh] rounded-full p-2" />
           </div>
 
           {/* Menú grande (solo visible en pantallas lg o mayores) */}
           <div className="hidden lg:flex flex-grow justify-center items-center space-x-4">
             <Link to="/" className="text-white hover:text-gray-900 text-[2vh] hover:bg-green-500 w-[10vh] flex justify-center rounded-md">Home</Link>
-            <Link to="/about" className="text-white hover:text-gray-900 text-[2vh] hover:bg-green-500 w-[10vh] flex justify-center rounded-md">Chi Siamo</Link>
+            {/* <Link to="/about" className="text-white hover:text-gray-900 text-[2vh] hover:bg-green-500 w-[10vh] flex justify-center rounded-md">Chi Siamo</Link> */}
             <Link to="/services" className="text-white hover:text-gray-900 text-[2vh] hover:bg-green-500 w-[10vh] flex justify-center rounded-md">Servizi</Link>
             <Link to="/contact" className="text-white hover:text-gray-900 text-[2vh] hover:bg-green-500 w-[10vh] flex justify-center rounded-md">Contatti</Link>
           </div>
@@ -60,11 +60,11 @@ export const Nav = () => {
                   Servizi
                 </Link>
               </li>
-              <li className='shadow-lg rounded-xl'>
+              {/* <li className='shadow-lg rounded-xl'>
                 <Link to="/about" onClick={handleLinkClick} className="block px-4 py-2 text-gray-700 hover:text-gray-900">
                   Chi Siamo
                 </Link>
-              </li>
+              </li> */}
               <li className='shadow-lg rounded-xl'>
                 <Link to="/contact" onClick={handleLinkClick} className="block px-4 py-2 text-gray-700 hover:text-gray-900">
                   Contatti
