@@ -21,8 +21,8 @@ export const HowWork = () => {
           />
         </div>
 
-        <div className="flex flex-col items-center justify-center mt-[80px] pb-[80px] gap-12 md:flex md:flex-col lg:mt-[0px] lg:justify-center lg:items-center lg:gap-20">
-          <div className="flex w-[80vw] gap-8 lg:w-[35vw]">
+        <div className="flex flex-col items-center justify-center mt-[80px] pb-[80px] gap-12 md:flex md:flex-col md:justify-center lg:mt-[0px] lg:justify-center lg:items-center lg:gap-20">
+          <div className="flex w-[80vw] gap-8 lg:w-[35vw] md:justify-center">
             <div>
               <img
                 src={temp}
@@ -35,7 +35,7 @@ export const HowWork = () => {
               <p>texrto de prueba para mejorar en programación</p>
             </div>
           </div>
-          <div className="flex w-[80vw] gap-8 lg:w-[35vw]">
+          <div className="flex w-[80vw] gap-8 lg:w-[35vw] md:justify-center">
             <div>
               <img
                 src={temp}
@@ -48,7 +48,7 @@ export const HowWork = () => {
               <p>texrto de prueba para mejorar en programación</p>
             </div>
           </div>
-          <div className="flex w-[80vw] gap-8 lg:w-[35vw]">
+          <div className="flex w-[80vw] gap-8 lg:w-[35vw] md:justify-center">
             <div>
               <img
                 src={temp}

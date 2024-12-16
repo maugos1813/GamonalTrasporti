@@ -3,7 +3,7 @@ import { Nav } from './components/Nav';
 import { Home } from './components/Home';
 import { Services } from './components/Services';
 import { About } from './components/About';
-import { Contact } from './components/Contact';
+import { ContactMail } from './components/ContactMail';
 
 const App = () => {
   return (
@@ -13,7 +13,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contact" element={<ContactMail />} />
       </Routes>
     </Router>
   );
