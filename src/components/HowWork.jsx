@@ -21,7 +21,7 @@ export const HowWork = () => {
           />
         </div>
 
-        <div className="flex flex-col items-center justify-center mt-[80px] pb-[80px] gap-12 md:flex md:flex-col lg:mt-[0px] lg:justify-center lg:items-center">
+        <div className="flex flex-col items-center justify-center mt-[80px] pb-[80px] gap-12 md:flex md:flex-col lg:mt-[0px] lg:justify-center lg:items-center lg:gap-20">
           <div className="flex w-[80vw] gap-8 lg:w-[35vw]">
             <div>
               <img
