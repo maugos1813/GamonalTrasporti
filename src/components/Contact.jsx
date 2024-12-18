@@ -3,7 +3,7 @@ import logo from "/logoc.jpeg"
 
 export const Contact = () => {
   return (
-    <div className='bg-[#252d5c] text-white lg:flex lg:justify-evenly mt-[100px] border-2 border-green-500 p-5'>
+    <div className='bg-[#252d5c] text-white lg:flex lg:justify-evenly border-2 border-green-500 p-5'>
       <div className='flex flex-col items-center justify-center gap-5 p-4 w-full lg:w-full'>
         <img src={logo} alt="logo image" className='w-[8vh] rounded-full'/>
         <input type="text" placeholder='Email here' className='w-[50vw] h-[10vw] p-2 text-gray-600 lg:w-[80%] lg:h-[8vh] rounded-xl'/>
